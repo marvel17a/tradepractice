@@ -4,6 +4,7 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
+
 // UPDATE THESE WITH YOUR INFINITYFREE CREDENTIALS
 $host = "sql100.infinityfree.com"; // e.g., sql123.epizy.com or sql123.infinityfree.com
 $user = "if0_41116335";    // Your InfinityFree vPanel Username
